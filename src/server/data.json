@@ -1,7 +1,215 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+  "get":[
+    {
+      "type": "pay",
+      "money": -33,
+      "date": "2022-09-24T16:15:41.000Z",
+      "useFor": "dessert",
+      "id": 4
+    },
+    {
+      "type": "pay",
+      "money": -56,
+      "date": "2022-10-22T05:37:06.000Z",
+      "useFor": "drinks",
+      "id": 5
+    },
+    {
+      "type": "pay",
+      "money": -128,
+      "date": "2022-10-15T12:30:00.000Z",
+      "useFor": "groceries",
+      "id": 6
+    },
+    {
+      "type": "income",
+      "money": 5000,
+      "date": "2022-11-01T09:00:00.000Z",
+      "useFor": "salary",
+      "id": 7
+    },
+    {
+      "type": "pay",
+      "money": -65,
+      "date": "2022-11-05T19:45:22.000Z",
+      "useFor": "dining",
+      "id": 8
+    },
+    {
+      "type": "pay",
+      "money": -230,
+      "date": "2022-11-12T15:20:00.000Z",
+      "useFor": "shopping",
+      "id": 9
+    },
+    {
+      "type": "pay",
+      "money": -15,
+      "date": "2022-11-18T08:05:33.000Z",
+      "useFor": "transport",
+      "id": 10
+    },
+    {
+      "type": "income",
+      "money": 800,
+      "date": "2022-11-25T14:10:00.000Z",
+      "useFor": "freelance",
+      "id": 11
+    },
+    {
+      "type": "pay",
+      "money": -42,
+      "date": "2022-12-03T20:30:00.000Z",
+      "useFor": "drinks",
+      "id": 12
+    },
+    {
+      "type": "pay",
+      "money": -99,
+      "date": "2022-12-10T13:15:00.000Z",
+      "useFor": "entertainment",
+      "id": 13
+    },
+    {
+      "type": "pay",
+      "money": -75,
+      "date": "2022-12-17T11:22:00.000Z",
+      "useFor": "dining",
+      "id": 14
+    },
+    {
+      "type": "income",
+      "money": 5200,
+      "date": "2022-12-25T10:00:00.000Z",
+      "useFor": "bonus",
+      "id": 15
+    },
+    {
+      "type": "pay",
+      "money": -210,
+      "date": "2023-01-05T18:40:00.000Z",
+      "useFor": "utilities",
+      "id": 16
+    },
+    {
+      "type": "pay",
+      "money": -88,
+      "date": "2023-01-12T21:15:00.000Z",
+      "useFor": "dessert",
+      "id": 17
+    },
+    {
+      "type": "pay",
+      "money": -150,
+      "date": "2023-01-20T14:00:00.000Z",
+      "useFor": "fitness",
+      "id": 18
+    },
+    {
+      "type": "income",
+      "money": 4800,
+      "date": "2023-01-28T09:30:00.000Z",
+      "useFor": "salary",
+      "id": 19
+    },
+    {
+      "type": "pay",
+      "money": -320,
+      "date": "2023-02-03T16:45:00.000Z",
+      "useFor": "travel",
+      "id": 20
+    },
+    {
+      "type": "pay",
+      "money": -45,
+      "date": "2023-02-10T12:10:00.000Z",
+      "useFor": "drinks",
+      "id": 21
+    },
+    {
+      "type": "pay",
+      "money": -180,
+      "date": "2023-02-18T19:30:00.000Z",
+      "useFor": "electronics",
+      "id": 22
+    },
+    {
+      "type": "income",
+      "money": 1200,
+      "date": "2023-02-25T15:20:00.000Z",
+      "useFor": "investment",
+      "id": 23
+    },
+    {
+      "type": "pay",
+      "money": -95,
+      "date": "2023-03-02T20:15:00.000Z",
+      "useFor": "dining",
+      "id": 24
+    },
+    {
+      "type": "pay",
+      "money": -28,
+      "date": "2023-03-08T08:30:00.000Z",
+      "useFor": "transport",
+      "id": 25
+    },
+    {
+      "type": "pay",
+      "money": -75,
+      "date": "2023-03-15T13:45:00.000Z",
+      "useFor": "books",
+      "id": 26
+    },
+    {
+      "type": "pay",
+      "money": -420,
+      "date": "2023-03-22T17:00:00.000Z",
+      "useFor": "healthcare",
+      "id": 27
+    },
+    {
+      "type": "income",
+      "money": 5000,
+      "date": "2023-03-29T11:00:00.000Z",
+      "useFor": "salary",
+      "id": 28
+    },
+    {
+      "type": "pay",
+      "money": -60,
+      "date": "2023-03-31T21:20:00.000Z",
+      "useFor": "entertainment",
+      "id": 29
+    },
+    {
+      "type": "pay",
+      "money": -135,
+      "date": "2023-04-05T19:15:00.000Z",
+      "useFor": "groceries",
+      "id": 30
+    },
+    {
+      "type": "pay",
+      "money": -55,
+      "date": "2023-04-12T14:30:00.000Z",
+      "useFor": "coffee",
+      "id": 31
+    },
+    {
+      "type": "pay",
+      "money": -230,
+      "date": "2023-04-18T12:45:00.000Z",
+      "useFor": "clothing",
+      "id": 32
+    },
+    {
+      "type": "income",
+      "money": 750,
+      "date": "2023-04-25T16:00:00.000Z",
+      "useFor": "freelance",
+      "id": 33
+    }
   ],
   "comments": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },
