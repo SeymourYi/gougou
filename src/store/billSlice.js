@@ -14,8 +14,8 @@ const billSlice = createSlice({
 });
 const getBillList =  () => {
   return async (dispatch) => {
-    const res = await axios.get("http://localhost:8888/posts")
-    dispatch(setBillList(res))
+    const res = await axios.get("http://localhost:8888/get")
+    dispatch(setBillList(res.data))
 }
   }
  export {getBillList }
